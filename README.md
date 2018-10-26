@@ -19,7 +19,7 @@ You are free to add other functionality (as long as the requirements above are s
 6. Store the current state in the browser's local storage. When the browser is shut down and then opened again, the state should be restored.
 7. Move the cards marked as 'done' to the bottom of the list.
 7. Add date and a timestamp to the cards. Sort the cards based on the timestamp. (Cards marked as done should still be in the bottom of the list)
-8. Let the user decide weather to sort the cards in ascending or descending order.
+8. Let the user decide whether to sort the cards in ascending or descending order.
 
 | ![Todo](todo.png) |
 |:---:|
