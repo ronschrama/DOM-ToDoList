@@ -3,7 +3,7 @@
 ## Salt ToDo
 
 This is the classic Todo app exercise. Your task is to create a simple todo app - no backend required.
-Exactly how you implement and design this is up to you - but your solution should be implemented in the files `index.html`, `js/todo.js` and `style/todo.css`.
+Exactly how you implement and design this is up to you - but your solution should be implemented in the files `index.html`, `js/todo.js` and `style/todo.css`. You may use the screenshot at the bottom of this page for inspiration.
 
 ### Requirements
 1. Initially, the list of todo cards should be empty.
@@ -20,3 +20,7 @@ You are free to add other functionality (as long as the requirements above are s
 7. Move the cards marked as 'done' to the bottom of the list.
 7. Add date and a timestamp to the cards. Sort the cards based on the timestamp. (Cards marked as done should still be in the bottom of the list)
 8. Let the user decide weather to sort the cards in ascending or descending order.
+
+| ![Todo](todo.png) |
+|:---:|
+| Example of a todo app |
