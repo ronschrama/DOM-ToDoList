@@ -7,7 +7,7 @@ Exactly how you implement and design this is up to you - but your solution shoul
 
 ### Requirements
 1. Initially, the list of todo cards should be empty.
-2. There should be a form where the user can add new a new 'todo'.
+2. There should be a form where the user can add a new 'todo'.
 3. When a new todo task is submitted from the form, a new todo card should be appended to the list.
 4. Clicking on a todo card should visually mark the card as done. Exactly how is up to you.
 
@@ -18,8 +18,8 @@ You are free to add other functionality (as long as the requirements above are s
 5. Add a remove button to cards marked as 'done'. When the button is clicked, the card should be removed from the board.
 6. Store the current state in the browser's local storage. When the browser is shut down and then opened again, the state should be restored.
 7. Move the cards marked as 'done' to the bottom of the list.
-7. Add date and a timestamp to the cards. Sort the cards based on the timestamp. (Cards marked as done should still be in the bottom of the list)
-8. Let the user decide whether to sort the cards in ascending or descending order.
+8. Add date and a timestamp to the cards. Sort the cards based on the timestamp. (Cards marked as done should still be in the bottom of the list)
+9. Let the user decide whether to sort the cards in ascending or descending order.
 
 | ![Todo](todo.png) |
 |:---:|
