@@ -1,0 +1,18 @@
+Functionality
+1 When a new todo task is submitted from the form, a new todo card should be appended to the list.
+1 Clicking on a todo card should visually mark the card as done. Exactly how is up to you.
+1 no console errors
+1 responsive
+1 visually appealing and good ux (adds todo on enter, clears form on enter)
+
+JS
+1 modular (basically no large monster functions)
+1 consistent use of ES Next
+1 pretty code (consistent coding structure, naming, semi colons, linting etc)
+1 keeps state in object (localstorage is ok)
+
+HTML/CSS
+1 semantic html (e.g use form element)
+1 resetting/normalizing (or sensible defaults for elements)
+1 css is structured in a scalable and reusable manner
+1 consistent naming (e.g. don't mix camel case & hyphens)
