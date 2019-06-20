@@ -16,3 +16,26 @@ HTML/CSS
 1 resetting/normalizing (or sensible defaults for elements)
 1 css is structured in a scalable and reusable manner
 1 consistent naming (e.g. don't mix camel case & hyphens)
+
+
+For the refactoring task, I just sent comments to everyone, picking centenses from this template:
+
+hi, i just had a look at your refactored todo-app!
+
+the refactoring looks good, small single purpose functions with descriptive names.
+some functions are still too large.
+maybe you could make use of template strings instead of creating each element one at a time.
+nice use of template strings.
+you're not keeping a state separate from the dom.
+the DOM is rendered based on a state - nice.
+notice that you have just added the state as an extra layer, but the dom is not dependent on it.
+found a couple of linting errors!
+no linting errors.
+
+tips:
+try too base the dom of the state object, for example by having a render function that runs each time the state changes.
+store each todo as a JS-object, not a string containing html.
+when rendering all items it might be better to do only one dom-manipulation instead of one for each item.
+use forEach when iterating over an array.
+also, remember to remove commented code.
+also, remember to remove console logs.
