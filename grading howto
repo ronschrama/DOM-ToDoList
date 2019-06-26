@@ -4,6 +4,7 @@ Functionality
 1 no console errors
 1 responsive
 1 visually appealing and good ux (adds todo on enter, clears form on enter)
+1 persists state on refresh (localstorage)
 
 JS
 1 modular (basically no large monster functions)
