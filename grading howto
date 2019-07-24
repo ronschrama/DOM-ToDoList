@@ -15,7 +15,7 @@ JS
 1 pretty and readable code (consistent and self documenting naming, structure etc)
 1 keeps state in object, render view based on this state
 
-          
+
 HTML/CSS
 1 semantic html (e.g use form element)
 1 resetting/normalizing (or sensible defaults for elements)
@@ -23,7 +23,7 @@ HTML/CSS
 1 consistent naming (e.g. don't mix camel case & hyphens)
 
 
-I sent comments to everyone, picking centenses from this template:
+I sent comments to everyone, picking sentences from this template:
 
 hi, i just had a look at your todo-app!
 
