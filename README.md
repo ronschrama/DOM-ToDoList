@@ -22,12 +22,6 @@ You may not use any frameworks or libraries. SASS is OK.
 * Persisting in localstorage. This is actually trivial once you have a state object: store the current state in the browser's localstorage. When the app is closed and then opened again, the state should be restored.
 * Lint your code with Airbnb’s ESlint-configuration
 
-### Optional (yes, really!) functionality
-The list below contains additional functionality that is optional to implement. Treat them as suggestions.
-You are free to add other functionality (as long as the requirements above are still fulfilled) to your app if you come up with something better. Take the opportunity to boost your app and use it in your portfolio!
-* Add date and a timestamp to the cards. Sort the cards based on the timestamp. (Cards marked as done should still be in the bottom of the list)
-* Let the user decide whether to sort the cards in ascending or descending order.
-
 ### A few tips on the way
 * Check the console, make sure it's clean before sending in the code
 * Keep your code modular (build small functions, think that each function should have one single responsibility)
