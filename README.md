@@ -20,7 +20,7 @@ You may not use any frameworks or libraries. SASS is OK.
 ### Technical requirements
 * Keep state in a object and *NOT* in the DOM. In its simplest form, this means that the todo’s should be stored in an array. The view should be dependent on the state, not the other way around.
 * Lint your code with Airbnb’s ESlint-configuration
-* `Optional:` Persisting in localstorage. This is actually really simple once you have a state object: store the current state in the browser's localstorage. When the app is closed and then opened again, the state should be restored.
+* `Optional:` Persisting in [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage). This is actually really simple once you have a state object: store the current state in the browser's localstorage. When the app is closed and then opened again, the state should be restored.
 
 ### A few tips on the way
 * Check the console, make sure it's clean before sending in the code
