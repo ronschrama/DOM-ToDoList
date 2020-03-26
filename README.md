@@ -36,3 +36,17 @@ Have fun!!
 | ![Todo](todo.png) |
 |:---:|
 | Example of a todo app |
+
+## FAQ
+
+Do we need to make the mobile view fully responsive?
+> This is a good project to put in your own portfolio for later usage, i.e. make it good. But no, it's not one of the requirements.
+
+When we hand it in - do we only upload the 3 files `index.html`, `todo.js` and `todo.css`?
+> No, you should upload all the files of your app (_except for any node modules_).
+
+Since the design is up to us, do we need to make sure our CSS works in good old Internet Explorer or can we skip that nightmare this time?
+> No, it's not one of the requirements.
+
+Does the type of the button matter? Like, is it expected to be "submit" since it's in a form, or is "button" fine as well?
+> This test isn’t about details like that, but rather to create a well-functioning application and to show us some good, readable and consistent code. But what we can say is that it’s always a good idea to use semantic HTML.
