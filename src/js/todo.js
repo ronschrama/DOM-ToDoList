@@ -27,22 +27,25 @@ function storeToDo() {
 }
 
 // Remove Todo
-function removeToDoItem(title, removeButton, removeDesc, removeTitle, toDoItem) {
+function removeToDoItem(title, e) {
   toDoArray.splice(toDoArray.findIndex((value) => value.title === title), 1);
-  removeButton.parentNode.removeChild(removeButton);
-  removeDesc.parentNode.removeChild(removeDesc);
-  removeTitle.parentNode.removeChild(removeTitle);
-  const removeItem = toDoItem;
-  removeItem.parentNode.removeChild(removeItem);
+  const itemToRemove = e.target.parentNode;
+  const parent = itemToRemove.parentNode;
+  parent.removeChild(itemToRemove);
   storeToDo();
 }
 
 // Change toDO state to remember in localstorage
 function changeToDoState(title) {
   const newState = toDoArray.findIndex((value) => value.title === title);
-  toDoArray[newState].done = true;
+  if (toDoArray[newState].done === true) {
+    toDoArray[newState].done = false;
+  } else {
+    toDoArray[newState].done = true;
+  }
   storeToDo();
 }
+
 
 // Create new ToDo element to append to the DOM
 function createTodoItem(title, desc, status) {
@@ -60,13 +63,20 @@ function createTodoItem(title, desc, status) {
   newToDoItem.appendChild(newButton);
   toDoContainer.appendChild(newToDoItem);
   newToDoItem.addEventListener('click', function changeClass() {
-    this.classList.add('done');
-    newButton.classList.add('on');
-    changeToDoState(newTitle.textContent);
-    toDoContainer.appendChild(newToDoItem);
+    if (this.classList.value === 'todo-item done') {
+      this.classList.remove('done');
+      newButton.classList.remove('on');
+      changeToDoState(newTitle.textContent);
+      toDoContainer.appendChild(newToDoItem);
+    } else {
+      this.classList.add('done');
+      newButton.classList.add('on');
+      changeToDoState(newTitle.textContent);
+      toDoContainer.appendChild(newToDoItem);
+    }
   });
-  newButton.addEventListener('click', () => {
-    removeToDoItem(newTitle.textContent, newButton, newDesc, newTitle, newToDoItem);
+  newButton.addEventListener('click', (e) => {
+    removeToDoItem(newTitle.textContent, e);
   });
   if (itemStatus === true) {
     newToDoItem.classList.add('done');
